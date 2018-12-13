@@ -1,39 +1,34 @@
 
 
 
-#table1 {
+.table1 {
     width: 500px;
-    height: 350px;
-    border: solid red;
-}
-
-#table2 {
+    height: 80px;
     border: solid blue;
-    padding: 10px;
-    margin: auto;
-    width: 50%;
-    width: 450px;
-    height: 300px;
-    margin-top: 10px;
+    text-align: center;
 }
 
-#table3 {
-    margin: auto;
-    width: 50%;
+.table2 {
+    border: solid blue;
+    width: 500px;
+    height: 80px;
+    text-align: center;
 }
 
-#table4 {
-    margin: auto;
-    width: 50%;
+.table3 {
+    border: solid blue;
+    width: 500px;
+    height: 80px;
+    text-align: center;
 }
 
-#table5 {
-    margin: auto;
-    width: 50%;
-    font-weight: bold;
-    width: 300px;
-}
 
+.table4 {
+    border: solid red;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+}
 #triangle {
     display: block;
     margin: auto;
