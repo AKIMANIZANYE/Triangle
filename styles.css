@@ -1,0 +1,47 @@
+
+
+
+#table1 {
+    width: 500px;
+    height: 350px;
+    border: solid red;
+}
+
+#table2 {
+    border: solid blue;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    width: 450px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#table3 {
+    margin: auto;
+    width: 50%;
+}
+
+#table4 {
+    margin: auto;
+    width: 50%;
+}
+
+#table5 {
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    width: 300px;
+}
+
+#triangle {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+hr {
+    color: blue;
+    background-color: blue;
+    height: 5px;
+}
