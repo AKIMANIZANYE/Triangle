@@ -1,7 +1,8 @@
 #Project name.:Track Triange
 #Project description.
 My project called Track triangle is about to chacking what types of triangle
-Firstly,it will be allowing the user to enter the number that they wish to enter ,in addition to that as question asked to checl whether if the triangle is isocele
+Firstly,it will be allowing the user to enter the number that they wish to enter ,in addition to that as question asked to check whether if the triangle is isocele,scelene and equilateral
+i used conditional statemnts if and esle if condtion to check if the user is willing to see the if the equilaterl she/he can be able to check and if she/he want to check if it is isocele they can get it and there is buttom to submitt to see if what you checked is true.
 Author(s) information.
 Setup instructions - includes any scripts that need to be run if necessary.
 BDD.
