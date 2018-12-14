@@ -35,4 +35,8 @@ I used HTML code
 CSS styles
 Javascript
 
+#Contact information
+Email: akimanizanyeclaudine@gmail.com
+Phone:0789616355
+
     http://www.w3schools.com
