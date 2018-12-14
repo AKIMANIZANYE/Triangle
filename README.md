@@ -18,15 +18,21 @@ Date: Fri Dec 14 11:50:41 2018 +0200
 # Behavoir Driven Development
 
      Story: Tracker Triangle  is way of checking types of triangle the questios was about how you can check  if the triagnle is  isocel equilateral  scelene or not  among of this i mentioned above not let foloow what i did in javascript
+     input firstnumner
+     input secondnumber
+     input thirdnumber as function
+     use parseint  and getelement by id in html code
+     conditional test
 
+    if (firstnumber equal to seconnd number AND secondnumber is equal to thirdnumber) {equalitateral}
 
-    Technique
-    if (side1 is equal to side2 AND side 2 is equal to side3) {equalitateral}
+    esle if (firstnumber is equal to secondnumber AND second number doesn't equal to third number) {isosceles}
 
-    if (side1 is equal to side2 AND side 2 doesn't equal to side3) {isosceles}
+    else if (firstnumber doesn't equal to secondnumber AND second numner doesn't equal to   thirdnumber doesn't equal firstnumber) {scalene}
 
-    if (side1 doesn't equal to side2 AND side2 doesn't equal to side 3 AND side 3 doesn't equal side 1) {scalene}
+#Technologies used.
+I used HTML code
+CSS styles
+Javascript
 
-    http://www.w3schools.com/js/js_comparisons.asp
-
-    */
+    http://www.w3schools.com
