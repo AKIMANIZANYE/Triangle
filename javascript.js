@@ -9,21 +9,24 @@ var b = function(secondnumber, thirdnumber) {
 };
 
 var c = function(firstnumber, thirdnumber) {
-  //return firstnumber + thirdnumber;
+  return firstnumber + thirdnumber;
 };
 
 function check() {
   var data = [];
-  var firstnumber = document.getElementById("one").value;
-  var secondnumber = document.getElementById("two").value;
-  var thirdnumber = document.getElementById("three").value;
+  var firstnumber = parseInt(document.getElementById("one").value);
+  var secondnumber = parseInt(document.getElementById("two").value);
+  var thirdnumber = parseInt(document.getElementById("three").value);
   var newData = data.concat([firstnumber, secondnumber, thirdnumber]);
 
   var text;
   if (
-    a(firstnumber, secondnumber) <= thirdnumber ||
-    b(secondnumber, thirdnumber) <= firstnumber ||
-    c(firstnumber, thirdnumber) <= secondnumber
+    (firstnumber + secondnumber <= thirdnumber &&
+      secondnumber + firstnumber <= thirdnumber) ||
+    (firstnumber + thirdnumber <= secondnumber &&
+      thirdnumber + firstnumber <= secondnumber) ||
+    (secondnumber + thirdnumber <= firstnumber &&
+      thirdnumber + secondnumber <= firstnumber)
   ) {
     text = "it is not a triangle";
   } else if (firstnumber === secondnumber && secondnumber === thirdnumber) {
@@ -36,11 +39,14 @@ function check() {
     text = "Isoscele Triangle.";
   }
   //Isoscele Triangle
-  else if (
-    firstnumber !== secondnumber &&
-    firstnumber !== thirdnumber &&
-    secondnumber !== thirdnumber
-  ) {
+  else if (firstnumber !== secondnumber && secondnumber !== thirdnumber) {
+    //     (firstnumber + secondnumber > thirdnumber &&
+    //       secondnumber + firstnumber > thirdnumber) ||
+    //     (firstnumber + thirdnumber > secondnumber &&
+    //       thirdnumber + firstnumber > secondSide) ||
+    //     (secondnumber + thirdnumber > firstnumber &&
+    //       secondnumber + thirdnumber > firstnumber)
+    //   ) {
     text = "Scalene Triangle.";
   }
   //Scalene Triangle

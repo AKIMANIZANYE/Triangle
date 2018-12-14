@@ -1,3 +1,14 @@
+#Project name.:Track Triange
+#Project description.
+My project called Track triangle is about to chacking what types of triangle
+Firstly,it will be allowing the user to enter the number that they wish to enter ,in addition to that as question asked to checl whether if the triangle is isocele
+Author(s) information.
+Setup instructions - includes any scripts that need to be run if necessary.
+BDD.
+Technologies used.
+Contact information.
+License and Copyright information.
+
 /\* Notes
 
     In computing, a parser is one of the components in an interpreter or
