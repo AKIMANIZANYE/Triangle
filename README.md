@@ -7,10 +7,6 @@ Author(s) information.
 #Setup instructions - includes any scripts that need to be run if necessary.
 I used if statment in javascript in addition I used also ifesle statments
 I used sytles in CSS and i used heading ,links i used also paragraph in HTMLs code not only that but also, I added i used input buttom that allows the users to enter the number that they wish to enter.
-
-Technologies used.
-Contact information.
-License and Copyright information.
 #Author:
 Claudine Akimanizanye <akimanizanye.claudine@gmail.com>
 Date: Fri Dec 14 11:50:41 2018 +0200
@@ -39,4 +35,6 @@ Javascript
 Email: akimanizanyeclaudine@gmail.com
 Phone:0789616355
 
-    http://www.w3schools.com
+#License and Copyright information.
+
+copyright: Claudine Akimanizanye 2018
