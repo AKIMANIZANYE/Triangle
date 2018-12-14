@@ -1,5 +1,5 @@
 //Declaration of variables
-
+var arrays = [firstnumber, secondnumber, thirdnumber];
 var a = function(firstnumber, secondnumber) {
   return firstnumber + secondnumber;
 };
