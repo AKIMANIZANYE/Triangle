@@ -5,6 +5,7 @@ Firstly,it will be allowing the user to enter the number that they wish to enter
 i used conditional statemnts if and esle if condtion to check if the user is willing to see the if the equilaterl she/he can be able to check and if she/he want to check if it is isocele they can get it and there is buttom to submitt to see if what you checked is true.
 Author(s) information.
 #Setup instructions - includes any scripts that need to be run if necessary.
+Firstly i declared the array in my vajascript
 I used if statment in javascript in addition I used also ifesle statments
 I used sytles in CSS and i used heading ,links i used also paragraph in HTMLs code not only that but also, I added i used input buttom that allows the users to enter the number that they wish to enter.
 #Author:
