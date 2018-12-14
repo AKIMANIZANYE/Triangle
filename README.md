@@ -1,4 +1,5 @@
-#Project name.:Track Triange
+#Project name.:
+Track Triange
 #Project description.
 My project called Track triangle is about to chacking what types of triangle
 Firstly,it will be allowing the user to enter the number that they wish to enter ,in addition to that as question asked to check whether if the triangle is isocele,scelene and equilateral
@@ -39,4 +40,5 @@ Phone:0789616355
 #License and Copyright information.
 
 copyright: Claudine Akimanizanye 2018
+
 # Triangle
