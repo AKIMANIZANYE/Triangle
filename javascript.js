@@ -1,24 +1,51 @@
-function checkinputs()
-{
-/* Var = parseInt(document.Name_Of_Element_Form.Field_Name(Input).value); */
-/* Input Fields */
-inp1 = parseInt(document.Triangle_Inputs.input1.value);
-inp2 = parseInt(document.Triangle_Inputs.input2.value);
-inp3 = parseInt(document.Triangle_Inputs.input3.value);
-/* Side options */
-sideA = (inp1 + inp2);
-sideB = (inp1 + inp3);
-sideC = (inp2 + inp3);
-    if (sideA == sideB && sideB == sideC) {
-    alert("Equalateral");
-    }
-    if (sideA == sideB && != sideC) {
-    alert("Isosceles");
-    }
-    if (sideA != sideB == sideC) {
-    alert("Isosceles");
-    }
-    if (sideA != sideB != sideC != sideA) {
-    alert("Scalene!");
-    }
+//Declaration of variables
+
+var a = function(firstnumber, secondnumber) {
+  return firstnumber + secondnumber;
+};
+
+var b = function(secondnumber, thirdnumber) {
+  return secondnumber + thirdnumber;
+};
+
+var c = function(firstnumber, thirdnumber) {
+  //return firstnumber + thirdnumber;
+};
+
+function check() {
+  var data = [];
+  var firstnumber = document.getElementById("one").value;
+  var secondnumber = document.getElementById("two").value;
+  var thirdnumber = document.getElementById("three").value;
+  var newData = data.concat([firstnumber, secondnumber, thirdnumber]);
+
+  var text;
+  if (
+    a(firstnumber, secondnumber) <= thirdnumber ||
+    b(secondnumber, thirdnumber) <= firstnumber ||
+    c(firstnumber, thirdnumber) <= secondnumber
+  ) {
+    text = "it is not a triangle";
+  } else if (firstnumber === secondnumber && secondnumber === thirdnumber) {
+    text = "Equilaterial Triangle.";
+  } else if (
+    firstnumber === secondnumber ||
+    firstnumber === thirdnumber ||
+    secondnumber === thirdnumber
+  ) {
+    text = "Isoscele Triangle.";
+  }
+  //Isoscele Triangle
+  else if (
+    firstnumber !== secondnumber &&
+    firstnumber !== thirdnumber &&
+    secondnumber !== thirdnumber
+  ) {
+    text = "Scalene Triangle.";
+  }
+  //Scalene Triangle
+  else {
+    text = "Not a Triangle.";
+  }
+  document.getElementById("demo").innerHTML = text;
 }

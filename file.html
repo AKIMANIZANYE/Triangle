@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <script src="javascript.js"></script>
-
-    </head>
-    <body>
     <h2>Triangle Tracker</h2>
     <div class="triangle">
-    <form action="javascript.js">
-      <h3> check the types of triangle </h3>
-    <p>FirstLenght:<br></p>
-    <input class="table1" type="text" name="firstnumber" value="numbers" id ="one">
-    <br>
-    <p>secondLenght:<br></p>
-    <input class="table2"   type="text" name="secondnumber" value="numbers" id ="two">
-    <br><br>
-    <p>ThirdLenght:<br></p>
-    <input class="table3"   type="text" name="thirdnumber" value="numbers" id="three">
-    <br><br>
-    
-    <input class="table4"  type="submit" value="Submit">
-    </form>   
+      <div>
+        <h3>check the types of triangle</h3>
+        <p>FirstLenght:<br /></p>
+        <input class="table1" type="text" id="one" /> <br />
+        <p>secondLenght:<br /></p>
+        <input class="table2" type="text" id="two" /> <br /><br />
+        <p>ThirdLenght:<br /></p>
+        <input class="table3" type="text" id="three" /> <br /><br />
 
-    <p id="demo"></p>
+        <input onclick="check()" class="table4" type="submit" value="Submit" />
+      </div>
+
+      <p id="demo"></p>
     </div>
-    </body>
-    
-    
-    </html>
+  </body>
+</html>
