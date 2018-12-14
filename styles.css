@@ -1,56 +1,56 @@
-
-body{
-    background-color: lightseagreen;
+body {
+  background-color: lightseagreen;
 }
 
 .table1 {
-    width: 500px;
-    height: 80px;
-    border: solid blue;
-    text-align: center;
+  width: 500px;
+  height: 80px;
+  border: solid blue;
+  text-align: center;
 }
 
 .table2 {
-    border: solid blue;
-    width: 500px;
-    height: 80px;
-    text-align: center;
+  border: solid blue;
+  width: 500px;
+  height: 80px;
+  text-align: center;
 }
 
 .table3 {
-    border: solid blue;
-    width: 500px;
-    height: 80px;
-    text-align: center;
+  border: solid blue;
+  width: 500px;
+  height: 80px;
+  text-align: center;
 }
-
 
 .table4 {
-    border: solid red;
-    width: 500px;
-    height: 80px;
-    text-align: center;
+  border: solid red;
+  width: 500px;
+  height: 80px;
+  text-align: center;
 }
 .triangle {
-    display: block;
-    margin: auto;
-    width: 50%;
-    border: solid green;
-    padding:30px;
-    position:center;
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: solid green;
+  padding: 30px;
+  position: center;
 }
 
-h2{
-    color:black;
-    text-align: center;
-    font-size: 26px;
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 26px;
 }
-h3{
-    color:blueviolet;
-    text-align: center;
-    font-size: 26px;
+h3 {
+  color: blueviolet;
+  text-align: center;
+  font-size: 26px;
 }
-p{
-    font-size: 23px;
-    font-family: serif;
+p {
+  font-size: 23px;
+  font-family: serif;
+  font-style: italic;
+  color: gray;
 }
